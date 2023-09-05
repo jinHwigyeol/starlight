@@ -1,0 +1,349 @@
+.banner{
+    background: url(../img/image3.png) no-repeat center center;
+    width: 1900px;
+    height: 300px;
+    margin-bottom: 2rem;
+}
+
+.reserv{
+    background: url(../img/reserv_back.png);
+    height: 1100px;
+    margin: auto;
+}
+
+.reserv_title{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    align-items: baseline;
+    color: #FFF;
+    margin-bottom: 32px;
+}
+
+.reserv_m{
+    font-size: 40px;
+    font-family: var(--font-hahmlet);
+    margin-right: 20px;
+}
+
+.reserv_s{
+    font-family: var(--font-nexon);
+}
+
+.reserv_wrap{
+    width: 1300px;
+    height: 965px;
+    margin: auto;
+    background-color: #FFF;
+}
+
+.reserv_grid2{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.reserv_head{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: var(--font-hahmlet);
+    background-color: #7C7484;
+}
+
+.dan{
+    width: 330px;
+}
+
+.people{
+    width: 330px;
+}
+
+.reserv_date{
+    width: 620px;
+}
+
+.people_select{
+    background-color: rgba(164, 164, 164, 0.78);
+    width: 340px;
+    height: 915px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date_select{
+    width: 620px;
+    height: 915px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dan_p{
+    background-color: rgba(97, 91, 91, 0.8);
+    width: 340px;
+    height: 915px;
+    font-family: var(--font-nexon);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.dan_p ul{
+    width: 270px;
+}
+
+.dan_p ul li{
+    margin-top: 20px;
+}
+
+.dan_p ul li:nth-child(1){
+    margin-top: 0;
+}
+
+.select_wrap{
+    width: 290px;
+    height: 810px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.char_wrap{
+    width: 127px;
+    height: 127px;
+    background-color: #EDEDED;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid #FFF;
+}
+
+.char_select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 126px;
+    width: 80px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: var(--font-nexon);
+}
+
+
+.plus_minus{
+    display: grid;
+    width: 45px;
+    height: 126px;
+    align-items: center;
+    border-left: 1px solid #FFF;
+}
+
+.people_icon{
+    width: 100%;
+    height: 45px;
+    margin: auto;
+    border-bottom: 1px solid #FFF;
+}
+
+.people_icon2{
+    width: 100%;
+    height: 41px;
+    margin: auto;
+    border-top: 1px solid #FFF;
+}
+
+.people_number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: var(--font-nexon);
+    height: 41px;
+    font-weight: 400;
+}
+
+.plus_icon{
+    display: block;
+    background: url(../img/people-plus.svg) no-repeat center center;
+    width: 32px;
+    height: 32px;
+    margin: auto;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.minus_icon{
+    display: block;
+    background: url(../img/people-minus.svg);
+    width: 32px;
+    height: 32px;
+    margin: auto;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.charge_m{
+    height: 231px;
+    grid-column: 1 / 3;
+    background-color: #EDEDED;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    align-content: space-evenly;
+    justify-items: center;
+    font-weight: 400;
+    font-family: var(--font-nexon);
+}
+
+.total_amount{
+    grid-column: 1 / 3;
+    text-align: center;
+}
+
+.reserv_ok{
+    background-color: #9D9999;
+    height: 315px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: var(--font-nexon);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.reserv_form{
+    display: flex;
+    align-items: center;
+    width: 490px;
+    margin-bottom: 23px;
+}
+
+input[type='text']{
+    border: none;
+    padding: 1rem;
+}
+
+.reserv_form p{
+    margin-right: 28px;
+}
+
+.reserver{
+    width: 290px;
+    height: 40px;
+}
+
+.reserv_phone{
+    display: flex;
+    width: 490px;
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+.reserv_phone p{
+    margin-right: 28px;
+}
+
+.number{
+    height: 40px;
+    width: 60px;
+    border: none;
+}
+
+.phone{
+    width: 100px;
+    height: 40px;
+    margin-left: 16px;
+}
+
+.icons{
+    display: block;
+    margin: 0 5px;
+}
+
+.reserv_btn{
+    width: 217px;
+    height: 40px;
+    font-family: var(--font-nexon);
+    font-size: 20px;
+    color: #000;
+    background-color: #FFF;
+    border: none;
+    cursor: pointer;
+    margin-right: 100px;
+    font-weight: 600;
+}
+
+
+/* 달력 만들기 
+
+참조: https://sirius7.tistory.com/35
+*/
+.Calendar {
+    text-align: center;
+    background-color: #FFF;
+    width: 620px;
+    height: 600px;
+}
+
+.Calendar>thead>tr:first-child>td {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    height: 50px;
+}
+
+.Calendar>thead>tr:last-child>td {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 600;     
+}
+
+.Calendar>tbody>tr>td>p {
+    font-family: 'Montserrat', sans-serif;
+    height: 45px;
+    width: 45px;
+    border-radius: 45px;
+    transition-duration: .2s;
+    line-height: 45px;
+    margin: 2.5px;
+    display: block;
+    text-align: center;
+}        
+
+.pastDay {
+    color: lightgray;
+}
+
+.today {
+    background-color: #F5D042;            
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.futureDay {
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.futureDay:hover{
+    background:#eee;
+}
+
+.futureDay.choiceDay,
+.today.choiceDay {
+    background: #0A174E;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
